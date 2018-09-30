@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/DownloadResourceDatabase
+    driverClassName: org.postgresql.Driver
+    username: karol
+    password: admin
+  jpa.hibernate.ddl-auto: update
+  jpa.properties.hibernate.jdbc.lob.non_contextual_creation: true
